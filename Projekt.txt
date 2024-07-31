@@ -1,0 +1,14 @@
+Projektidee: Aufgaben-Manager
+Ziel: Erstelle eine einfache Aufgaben-Manager-Anwendung, um Aufgaben zu verwalten, deren Status zu verfolgen und Notizen hinzuzufügen.
+
+Funktionen:
+
+Aufgaben hinzufügen: Der Benutzer kann neue Aufgaben hinzufügen, inklusive einer Beschreibung und einer Fälligkeitsdatum.
+Aufgaben anzeigen: Der Benutzer kann eine Liste aller Aufgaben anzeigen lassen, mit Status (offen, in Bearbeitung, abgeschlossen).
+Aufgaben aktualisieren: Der Benutzer kann den Status einer Aufgabe ändern oder Notizen hinzufügen.
+Aufgaben löschen: Der Benutzer kann abgeschlossene oder nicht mehr benötigte Aufgaben löschen.
+Technologien und Konzepte:
+
+Python Grundkenntnisse: Verwalten von Listen und Dictionaries, grundlegende Ein- und Ausgaben.
+Dateioperationen: Speichern und Laden von Aufgaben in/aus einer Datei (z.B. JSON-Format), um die Daten persistent zu halten.
+Optionale Erweiterung: Eine einfache grafische Benutzeroberfläche (GUI) mit Tkinter oder ein webbasiertes Interface mit Flask, wenn du dich herausfordern möchtest.
