@@ -1,14 +1,28 @@
-Projektidee: Aufgaben-Manager
-Ziel: Erstelle eine einfache Aufgaben-Manager-Anwendung, um Aufgaben zu verwalten, deren Status zu verfolgen und Notizen hinzuzufügen.
+Ziel: Erstellen Sie ein Programm zur Verwaltung von Kontakten, das verschiedene Datentypen in Python verwendet, darunter Zahlen, Strings, Listen, Tupel, Sets und Dictionaries.
 
-Funktionen:
+Funktionen des Programms:
+Kontakt hinzufügen:
 
-Aufgaben hinzufügen: Der Benutzer kann neue Aufgaben hinzufügen, inklusive einer Beschreibung und einer Fälligkeitsdatum.
-Aufgaben anzeigen: Der Benutzer kann eine Liste aller Aufgaben anzeigen lassen, mit Status (offen, in Bearbeitung, abgeschlossen).
-Aufgaben aktualisieren: Der Benutzer kann den Status einer Aufgabe ändern oder Notizen hinzufügen.
-Aufgaben löschen: Der Benutzer kann abgeschlossene oder nicht mehr benötigte Aufgaben löschen.
-Technologien und Konzepte:
+Jeder Kontakt besteht aus einem Namen, einer Telefonnummer und einer E-Mail-Adresse.
+Der Name wird als String gespeichert.
+Die Telefonnummer als String (zum Beispiel "123-456-7890").
+Die E-Mail-Adresse als String.
+Kontakte anzeigen:
 
-Python Grundkenntnisse: Verwalten von Listen und Dictionaries, grundlegende Ein- und Ausgaben.
-Dateioperationen: Speichern und Laden von Aufgaben in/aus einer Datei (z.B. JSON-Format), um die Daten persistent zu halten.
-Optionale Erweiterung: Eine einfache grafische Benutzeroberfläche (GUI) mit Tkinter oder ein webbasiertes Interface mit Flask, wenn du dich herausfordern möchtest.
+Die Kontakte werden in einer Liste von Dictionaries gespeichert.
+Jeder Dictionary repräsentiert einen Kontakt und hat Schlüssel wie 'Name', 'Telefon', und 'Email'.
+Kontakte suchen:
+
+Sie können nach Namen suchen und entsprechende Kontaktdaten finden.
+Hier kann ein Set verwendet werden, um eine Liste von Suchergebnissen zu speichern und doppelte Ergebnisse zu vermeiden.
+Kontakt löschen:
+
+Löschen eines Kontakts durch Namen.
+Es wird überprüft, ob der Kontakt existiert, bevor er gelöscht wird.
+Kontakt aktualisieren:
+
+Aktualisieren von Telefonnummer oder E-Mail-Adresse eines bestehenden Kontakts.
+Kontaktliste sortieren:
+
+Die Kontakte können nach Namen oder Telefonnummern sortiert werden.
+Hier können Listen und Tupel verwendet werden, um die Sortierung durchzuführen.
